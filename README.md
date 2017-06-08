@@ -21,4 +21,8 @@
 
 [查看目录](nodeplugin/SUMMARY.md)
 
+## javascript
 
+当前目录中记录了javascript的学习笔记。
+
+[查看目录](javascript/SUMMARY.md)
