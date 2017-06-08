@@ -17,11 +17,8 @@
 
 ## nodeplugin
 
-当前目录中记录了node环境下的一些插件介绍和使用方式，如下：
+当前目录中记录了node环境下的一些插件介绍和使用方式。
 
-* node环境安装
-* gitbook安装使用
-* http-server小型的node服务器
-* gitbook editor 编辑器的使用
+[查看目录](nodeplugin/SUMMARY.md)
 
 
