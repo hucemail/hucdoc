@@ -1,2 +1,0 @@
-# JavaScript中级
-

@@ -9,6 +9,7 @@
     * [函数](01/05.md)
     * [对象](01/06.md)
         * [自定义对象](01/07.md)
+        * [属性的基本操作](01/08.md)
 * [JavaScript中级](02/README.md)
 * [JavaScript进阶](03/README.md)
 
