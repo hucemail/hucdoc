@@ -13,6 +13,7 @@
         * [对象的原型结构](01/09.md)
         * [属性的特性](01/10.md)
         * [对象的特性](01/11.md)
+        * [Date对象](01/12.md)
 * [JavaScript中级](02/README.md)
 * [JavaScript进阶](03/README.md)
 
