@@ -22,5 +22,6 @@
 		* [事件对象event](01/18.md)
 		* [事件速查表](01/19.md)
 * [JavaScript中级](02/README.md)
+	* [js的解析与执行过程](02/01.md)
 * [JavaScript进阶](03/README.md)
 
