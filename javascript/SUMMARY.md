@@ -24,5 +24,6 @@
 * [JavaScript中级](02/README.md)
 	* [js的解析与执行过程](02/01.md)
 	* [作用域](02/02.md)
+	* [闭包](02/03.md)
 * [JavaScript进阶](03/README.md)
 
