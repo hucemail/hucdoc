@@ -34,5 +34,11 @@
 		* [create继承](02/10.md)
 		* [完整的继承](02/11.md)
 * [JavaScript模块化](03/README.md)
-	* [模块规范](03/01.md)
+	* [模块化的概念](03/01.md)
+	* [CommonJS规范](03/02.md)
+	* [AMD规范](03/03.md)
+	* [CMD规范](03/04.md)
+	* [AMD和CMD的区别](03/05.md)
+	* [RequireJS](03/06.md)
+	* [seajs](03/07.md)
 
