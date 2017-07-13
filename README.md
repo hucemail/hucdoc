@@ -4,7 +4,7 @@
 
 均采用 gitbook 编写的文档，查看博客内容，需要有如下步骤：
 
-1. 前置条件，需要有node环境并且安装了gitbook，具体安装细节请查看nodeplugin下的文档
+1. 前置条件，需要有node环境并且安装了gitbook，具体安装细节请查看frontend目录下的文档
 
 1. 复制根目录的 node_modules 到子目录。
 
@@ -15,22 +15,20 @@
 
 下面将逐一列举各个子目录，并介绍其中记录了些什么笔记。node_modules 目录就不用介绍了，在这是gitbook使用到的一些插件集合。用于build子目录中的文档而使用的。
 
-## nodeplugin
 
-当前目录中记录了node环境下的一些插件介绍和使用方式。
+## frontend
 
-[查看目录](nodeplugin/SUMMARY.md)
+当前目录中记录了前端的学习笔记。有：
 
-## javascript
+* JavaScript
+* css
+* html
+* js模块化
+* 前端自动化构建
+* NodeJS插件
 
-当前目录中记录了javascript的学习笔记。
+等等，具体请查看文档目录。
 
-[查看目录](javascript/SUMMARY.md)
+[查看目录](frontend/SUMMARY.md)
 
-## html+css
-
-当前目录记录了html5和css3的学习笔记
-
-
-[查看目录](html+css/SUMMARY.md)
 

@@ -1,0 +1,1033 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Date对象 · 我的个人博客</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-okaidia.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="13.html" />
+    
+    
+    <link rel="prev" href="11.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    JavaScript初步
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="01.html">
+            
+                <a href="01.html">
+            
+                    
+                    变量和数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="02.html">
+            
+                <a href="02.html">
+            
+                    
+                    类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="03.html">
+            
+                <a href="03.html">
+            
+                    
+                    表达式和运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="04.html">
+            
+                <a href="04.html">
+            
+                    
+                    流程控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="05.html">
+            
+                <a href="05.html">
+            
+                    
+                    函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="06.html">
+            
+                <a href="06.html">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" data-path="07.html">
+            
+                <a href="07.html">
+            
+                    
+                    自定义对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" data-path="08.html">
+            
+                <a href="08.html">
+            
+                    
+                    属性的基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3" data-path="09.html">
+            
+                <a href="09.html">
+            
+                    
+                    对象的原型结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.4" data-path="10.html">
+            
+                <a href="10.html">
+            
+                    
+                    属性的特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.5" data-path="11.html">
+            
+                <a href="11.html">
+            
+                    
+                    对象的特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6.6" data-path="12.html">
+            
+                <a href="12.html">
+            
+                    
+                    Date对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.7" data-path="13.html">
+            
+                <a href="13.html">
+            
+                    
+                    RegExp对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.8" data-path="14.html">
+            
+                <a href="14.html">
+            
+                    
+                    Array对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.9" data-path="15.html">
+            
+                <a href="15.html">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="16.html">
+            
+                <a href="16.html">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1" data-path="17.html">
+            
+                <a href="17.html">
+            
+                    
+                    事件的简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2" data-path="18.html">
+            
+                <a href="18.html">
+            
+                    
+                    事件对象event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.3" data-path="19.html">
+            
+                <a href="19.html">
+            
+                    
+                    事件速查表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02/">
+            
+                <a href="../02/">
+            
+                    
+                    JavaScript深入
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../02/01.html">
+            
+                <a href="../02/01.html">
+            
+                    
+                    js的解析与执行过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../02/02.html">
+            
+                <a href="../02/02.html">
+            
+                    
+                    作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../02/03.html">
+            
+                <a href="../02/03.html">
+            
+                    
+                    闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../02/04.html">
+            
+                <a href="../02/04.html">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../02/05.html">
+            
+                <a href="../02/05.html">
+            
+                    
+                    对象基础知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../02/06.html">
+            
+                <a href="../02/06.html">
+            
+                    
+                    proto属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../02/07.html">
+            
+                <a href="../02/07.html">
+            
+                    
+                    this指向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../02/08.html">
+            
+                <a href="../02/08.html">
+            
+                    
+                    封装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.5" data-path="../02/09.html">
+            
+                <a href="../02/09.html">
+            
+                    
+                    拷贝继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.6" data-path="../02/10.html">
+            
+                <a href="../02/10.html">
+            
+                    
+                    create继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.7" data-path="../02/11.html">
+            
+                <a href="../02/11.html">
+            
+                    
+                    完整的继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../03/">
+            
+                <a href="../03/">
+            
+                    
+                    JavaScript模块化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../03/01.html">
+            
+                <a href="../03/01.html">
+            
+                    
+                    模块化的概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../03/02.html">
+            
+                <a href="../03/02.html">
+            
+                    
+                    CommonJS规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../03/03.html">
+            
+                <a href="../03/03.html">
+            
+                    
+                    AMD规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../03/04.html">
+            
+                <a href="../03/04.html">
+            
+                    
+                    CMD规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../03/05.html">
+            
+                <a href="../03/05.html">
+            
+                    
+                    AMD和CMD的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../03/06.html">
+            
+                <a href="../03/06.html">
+            
+                    
+                    RequireJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../03/07.html">
+            
+                <a href="../03/07.html">
+            
+                    
+                    seajs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../04/README.md">
+            
+                <span>
+            
+                    
+                    自动化构建工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../04/01.md">
+            
+                <span>
+            
+                    
+                    FIS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../05/">
+            
+                <a href="../05/">
+            
+                    
+                    NodeJS插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../05/nodehuan-jing-da-jian.html">
+            
+                <a href="../05/nodehuan-jing-da-jian.html">
+            
+                    
+                    node环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../05/http-server.html">
+            
+                <a href="../05/http-server.html">
+            
+                    
+                    http-server小型http服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../05/gitbook.html">
+            
+                <a href="../05/gitbook.html">
+            
+                    
+                    gitbook文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../05/gitbookeditorbian-ji-qi.html">
+            
+                <a href="../05/gitbookeditorbian-ji-qi.html">
+            
+                    
+                    GitBookEditor编辑器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Date对象</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x524D;&#x8A00;"><b>1. </b>&#x524D;&#x8A00;</a></li><li><span class="title-icon "></span><a href="#date&#x7684;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x51FD;&#x6570;"><b>2. </b>Date&#x7684;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x51FD;&#x6570;</a></li><li><span class="title-icon "></span><a href="#date&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;"><b>3. </b>Date&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;</a></li><ul><li><span class="title-icon "></span><a href="#getfullyear"><b>3.1. </b>getFullYear</a></li><li><span class="title-icon "></span><a href="#&#x5176;&#x4ED6;&#x65B9;&#x6CD5;"><b>3.2. </b>&#x5176;&#x4ED6;&#x65B9;&#x6CD5;</a></li></ul><li><span class="title-icon "></span><a href="#&#x603B;&#x7ED3;"><b>4. </b>&#x603B;&#x7ED3;</a></li></ul></div><a href="#&#x524D;&#x8A00;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x524D;&#x8A00;"><a name="&#x524D;&#x8A00;" class="anchor-navigation-ex-anchor" href="#&#x524D;&#x8A00;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x524D;&#x8A00;</h1>
+<p>&#x8FD9;&#x8282;&#x5C06;&#x4ECB;&#x7ECD;JavaScript&#x4E2D;&#x6700;&#x5E38;&#x7528;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#x4E4B;&#x4E00;Date&#x5BF9;&#x8C61;&#xFF0C;&#x9700;&#x8981;&#x638C;&#x63E1;&#x5982;&#x4E0B;&#x77E5;&#x8BC6;&#x70B9;&#xFF1A;</p>
+<ul>
+<li>Date&#x7684;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x51FD;&#x6570;</li>
+</ul>
+<p>Date&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;</p>
+<ul>
+<li>now</li>
+<li>parse</li>
+<li>UTC</li>
+<li>getFullYear</li>
+<li>getDay</li>
+<li>getDate</li>
+<li>getMonth</li>
+<li>getHours</li>
+<li>getMinutes</li>
+<li>getSeconds</li>
+<li>getTime</li>
+<li>toJSON</li>
+<li>toString</li>
+<li>valueOf</li>
+</ul>
+<h1 id="date&#x7684;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x51FD;&#x6570;"><a name="date&#x7684;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#date&#x7684;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>2. Date&#x7684;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x51FD;&#x6570;</h1>
+<p>Date&#x6709;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x51FD;&#x6570;&#x5F62;&#x5F0F;</p>
+<ul>
+<li>Date():&#x7A7A;&#x53C2;&#x6570;</li>
+<li>Date(vlaue):&#x4ECE;1970-01-01&#x5230;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x7684;&#x65F6;&#x95F4;&#x6413;&#xFF0C;&#x6BEB;&#x79D2;&#x7EA7;</li>
+<li>Date(dateString):&#x53EF;&#x4EE5;&#x901A;&#x8FC7;Date.parse&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x65E5;&#x671F;</li>
+<li>Date(year,month,day,hour,minute,second,millisecond):&#x5E74;&#x6708;&#x65E5;&#x65F6;&#x5206;&#x79D2;&#x6BEB;&#x79D2;</li>
+</ul>
+<p>&#x793A;&#x4F8B;&#xFF1A;</p>
+<pre class="language-"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+    console.log(new Date());
+    console.log(new Date(1497862727540));
+    console.log(new Date(&apos;2017-06-19 15:32:24&apos;));
+    console.log(new Date(2017,06,19));
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre><h1 id="date&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;"><a name="date&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#date&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>3. Date&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;</h1>
+<p>now: &#x83B7;&#x5F97;&#x5F53;&#x524D;&#x65E5;&#x671F;&#x7684;&#x65F6;&#x95F4;&#x6413;&#xFF0C;&#x6BEB;&#x79D2;&#x5355;&#x4F4D;
+parse&#xFF1A;&#x5C06;&#x5B57;&#x7B26;&#x4E32;&#x8F6C;&#x6362;&#x4E3A;&#x65F6;&#x95F4;&#x6413;&#xFF0C;&#x8F6C;&#x6362;&#x5931;&#x8D25;&#x8FD4;&#x56DE;NaN
+UTC&#xFF1A;&#x83B7;&#x5F97;&#x6307;&#x5B9A;&#x65E5;&#x671F;&#x7684;&#x65F6;&#x95F4;&#x6413;</p>
+<blockquote>
+<p>&#x8FD4;&#x56DE;&#x7684;&#x90FD;&#x662F;number&#x7C7B;&#x578B;&#xFF0C;&#x4E0D;&#x662F;Date&#x7C7B;&#x578B;</p>
+</blockquote>
+<pre class="language-"><code>    //parse&#xFF1A;&#x5C06;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x8F6C;&#x6362;&#x6210;&#x65F6;&#x95F4;&#x6413;&#xFF0C;&#x8F6C;&#x6362;&#x5931;&#x8D25;&#x8FD4;&#x56DE;NaN&#x3002;
+    console.log(Date.parse(&quot;2015-04-25 15:23:05&quot;));//1429946585000
+
+    //now&#xFF1A;&#x83B7;&#x5F97;&#x5F53;&#x524D;&#x65F6;&#x95F4;&#x6413;
+    console.log(Date.now());//1497939502819
+
+    //UTC&#xFF1A;&#x83B7;&#x5F97;&#x672C;&#x5730;&#x65F6;&#x95F4;&#x6413;&#xFF0C;2016-12-24 15:06:30
+    console.log(Date.UTC(2016, 12, 24, 15, 6, 30));//1485270390000
+</code></pre><h2 id="getfullyear"><a name="getfullyear" class="anchor-navigation-ex-anchor" href="#getfullyear"><i class="fa fa-link" aria-hidden="true"></i></a>3.1. getFullYear</h2>
+<p>&#x83B7;&#x5F97;&#x65F6;&#x95F4;&#x7684;&#x5E74;&#x4EFD;&#xFF0C;&#x8FD4;&#x56DE;&#x56DB;&#x4F4D;&#x6570;&#x7684;&#x5E74;&#x4EFD;&#x3002;&#x5B83;&#x548C;getYear&#x6709;&#x533A;&#x522B;</p>
+<pre class="language-"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+    //&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;0-11&#x4EE3;&#x8868;1-12&#x6708;
+    var date = new Date(2016, 11, 12, 15, 6, 30);
+    //getFullYear:&#x83B7;&#x5F97;&#x5E74;&#x4EFD;,&#x8FD4;&#x56DE;&#x56DB;&#x4F4D;&#x6570;&#x7684;&#x5E74;&#x4EFD;
+    console.log(date.getFullYear());//2016
+    //getYear:&#x83B7;&#x5F97;&#x5E74;&#x4EFD;,&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x5E74;&#x4EFD;-1900&#x5E74;
+    console.log(date.getYear());//116
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre><p><strong>&#x5982;&#x679C;&#x521D;&#x59CB;&#x5316;&#x65E5;&#x671F;&#x7B2C;&#x4E00;&#x4E2A;&#x5E74;&#x4EFD;&#x662F; 16</strong>  </p>
+<p>getFullYear&#xFF1A;&#x8FD4;&#x56DE;1900+16=1916</p>
+<p>getYear&#xFF1A;&#x8FD4;&#x56DE;16</p>
+<p><strong>&#x5982;&#x679C;&#x521D;&#x59CB;&#x5316;&#x65E5;&#x671F;&#x7B2C;&#x4E00;&#x4E2A;&#x5E74;&#x4EFD;&#x662F; 2016</strong></p>
+<p>getFullYear&#xFF1A;&#x8FD4;&#x56DE;2016</p>
+<p>getYear&#xFF1A;&#x8FD4;&#x56DE;2016-1900=116</p>
+<p><strong>&#x5982;&#x679C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x662F;12</strong></p>
+<p>getFullYear&#xFF1A;&#x8FD4;&#x56DE;2017</p>
+<p>getYear&#xFF1A;&#x8FD4;&#x56DE;2017-1900=117</p>
+<h2 id="&#x5176;&#x4ED6;&#x65B9;&#x6CD5;"><a name="&#x5176;&#x4ED6;&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x5176;&#x4ED6;&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>3.2. &#x5176;&#x4ED6;&#x65B9;&#x6CD5;</h2>
+<p>&#x4EE3;&#x7801;&#x4E2D;&#x5217;&#x4E3E;&#x7684;&#x90FD;&#x662F;get&#x65B9;&#x6CD5;&#xFF0C;&#x5176;&#x5B9E;&#x8FD8;&#x6709;&#x76F8;&#x5BF9;&#x5E94;&#x7684;set&#x3002;&#x8FD9;&#x91CC;&#x5C31;&#x4E0D;&#x505A;&#x6D4B;&#x8BD5;&#x4E86;</p>
+<pre class="language-"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+    //&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;0-11&#x4EE3;&#x8868;1-12&#x6708;
+    var date = new Date(&quot;2016-11-12 23:06:30&quot;);
+    //getFullYear:&#x83B7;&#x5F97;&#x5E74;&#x4EFD;,&#x8FD4;&#x56DE;&#x56DB;&#x4F4D;&#x6570;&#x7684;&#x5E74;&#x4EFD;
+    console.log(date.getFullYear());//2016
+    //getYear:&#x83B7;&#x5F97;&#x5E74;&#x4EFD;,&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x5E74;&#x4EFD;-1900&#x5E74;
+    console.log(date.getYear());//116
+
+
+    //getMonth:&#x83B7;&#x5F97;&#x6708;&#x4EFD;,11&#x4EE3;&#x8868;12&#x6708;  0&#x4EE3;&#x8868;1&#x6708;
+    console.log(date.getMonth());//10
+    //getDate:&#x83B7;&#x5F97;&#x65E5;
+    console.log(date.getDate());//12
+    //getDay:&#x83B7;&#x5F97;&#x661F;&#x671F;&#x7684;&#x67D0;&#x4E00;&#x5929;&#xFF0C;&#x8FD4;&#x56DE;&#x503C;&#x662F;0(&#x5468;&#x65E5;)&#x5230;6&#xFF08;&#x5468;&#x516D;&#xFF09;
+    console.log(date.getDay());//6
+    //getHours:&#x83B7;&#x5F97;&#x5C0F;&#x65F6;&#x6570;
+    console.log(date.getHours());//23
+    //getMinutes:&#x83B7;&#x5F97;&#x5206;&#x949F;&#x6570;
+    console.log(date.getMinutes());//6
+    //getSeconds:&#x83B7;&#x5F97;&#x79D2;&#x6570;
+    console.log(date.getSeconds());//30
+    //getMilliseconds:&#x83B7;&#x5F97;&#x6BEB;&#x79D2;&#x6570;
+    console.log(date.getMilliseconds());//0
+    //getTime:&#x83B7;&#x5F97;&#x65F6;&#x95F4;&#x6413;
+    console.log(date.getTime());//1478963190000
+
+
+    //toJSON:&#x83B7;&#x5F97;json&#x65E5;&#x671F;&#x5B57;&#x7B26;&#x4E32;,&#x4EE5;&#x7F8E;&#x56FD;&#x65F6;&#x95F4;&#x4E3A;&#x51C6;&#xFF0C;&#x5012;&#x4E86;&#x65F6;&#x5DEE;
+    console.log(date.toJSON());//2016-11-12T15:06:30.000Z
+    //toString:&#x8FD4;&#x56DE;&#x65F6;&#x95F4;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4EE5;&#x672C;&#x5730;&#x6807;&#x51C6;&#x65F6;&#x95F4;&#x4E3A;&#x51C6;
+    console.log(date.toString());//Sat Nov 12 2016 23:06:30 GMT+0800 (&#x4E2D;&#x56FD;&#x6807;&#x51C6;&#x65F6;&#x95F4;)
+    //valueOf:&#x83B7;&#x5F97;&#x65F6;&#x95F4;&#x6413;
+    console.log(date.valueOf())//1478963190000
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre><h1 id="&#x603B;&#x7ED3;"><a name="&#x603B;&#x7ED3;" class="anchor-navigation-ex-anchor" href="#&#x603B;&#x7ED3;"><i class="fa fa-link" aria-hidden="true"></i></a>4. &#x603B;&#x7ED3;</h1>
+<ol>
+<li>&#x638C;&#x63E1;Date&#x5BF9;&#x8C61;&#x521B;&#x5EFA;&#x7684;&#x56DB;&#x79CD;&#x6784;&#x9020;&#x53C2;&#x6570;</li>
+<li>&#x638C;&#x63E1;Date&#x5BF9;&#x8C61;&#x7684;&#x5E38;&#x7528;&#x65B9;&#x6CD5;</li>
+<li>&#x6CE8;&#x610F;Month&#x7684;&#x8303;&#x56F4;&#x662F;&#x4ECE; 0-11</li>
+<li>&#x6CE8;&#x610F;Day&#x662F;&#x83B7;&#x5F97;&#x661F;&#x671F;&#x7684;&#x67D0;&#x4E00;&#x5929;&#xFF0C;0&#xFF08;&#x5468;&#x65E5;&#xFF09;-6&#xFF08;&#x5468;&#x516D;&#xFF09;</li>
+<li>getDate()&#x624D;&#x662F;&#x83B7;&#x5F97;&#x6708;&#x4E2D;&#x7684;&#x67D0;&#x4E00;&#x5929;</li>
+<li>&#x6CE8;&#x610F;getFullYear&#x548C;getYear&#x7684;&#x533A;&#x522B;&#x3002;</li>
+<li>getTime&#x548C;valueOf&#x90FD;&#x662F;&#x83B7;&#x5F97;&#x65F6;&#x95F4;&#x6413;&#xFF0C;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x7684;&#x533A;&#x522B;&#x5728;&#x4E8E;getTime&#x662F;Date&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x540E;&#x8005;&#x662F;&#x4ECE;Object&#x5BF9;&#x8C61;&#x7EE7;&#x627F;&#x800C;&#x6765;&#x7684;</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="11.html" class="navigation navigation-prev " aria-label="Previous page: 对象的特性">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="13.html" class="navigation navigation-next " aria-label="Next page: RegExp对象">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Date对象","level":"1.2.6.6","depth":3,"next":{"title":"RegExp对象","level":"1.2.6.7","depth":3,"path":"01/13.md","ref":"01/13.md","articles":[]},"previous":{"title":"对象的特性","level":"1.2.6.5","depth":3,"path":"01/11.md","ref":"01/11.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex","emphasize","splitter","expandable-chapters-small","multipart","prism","-highlight","-sharing","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"emphasize":{},"livereload":{},"splitter":{},"search":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"showLevel":true},"expandable-chapters-small":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的个人博客","language":"zh-hans","gitbook":"3.2.2"},"file":{"path":"01/12.md","mtime":"2017-06-20T07:05:58.936Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-13T06:45:07.395Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

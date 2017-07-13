@@ -1,0 +1,926 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>AMD和CMD的区别 · 我的个人博客</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-okaidia.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="06.html" />
+    
+    
+    <link rel="prev" href="04.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../01/">
+            
+                <a href="../01/">
+            
+                    
+                    JavaScript初步
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../01/01.html">
+            
+                <a href="../01/01.html">
+            
+                    
+                    变量和数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../01/02.html">
+            
+                <a href="../01/02.html">
+            
+                    
+                    类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../01/03.html">
+            
+                <a href="../01/03.html">
+            
+                    
+                    表达式和运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../01/04.html">
+            
+                <a href="../01/04.html">
+            
+                    
+                    流程控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../01/05.html">
+            
+                <a href="../01/05.html">
+            
+                    
+                    函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../01/06.html">
+            
+                <a href="../01/06.html">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" data-path="../01/07.html">
+            
+                <a href="../01/07.html">
+            
+                    
+                    自定义对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" data-path="../01/08.html">
+            
+                <a href="../01/08.html">
+            
+                    
+                    属性的基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3" data-path="../01/09.html">
+            
+                <a href="../01/09.html">
+            
+                    
+                    对象的原型结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.4" data-path="../01/10.html">
+            
+                <a href="../01/10.html">
+            
+                    
+                    属性的特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.5" data-path="../01/11.html">
+            
+                <a href="../01/11.html">
+            
+                    
+                    对象的特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.6" data-path="../01/12.html">
+            
+                <a href="../01/12.html">
+            
+                    
+                    Date对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.7" data-path="../01/13.html">
+            
+                <a href="../01/13.html">
+            
+                    
+                    RegExp对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.8" data-path="../01/14.html">
+            
+                <a href="../01/14.html">
+            
+                    
+                    Array对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.9" data-path="../01/15.html">
+            
+                <a href="../01/15.html">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../01/16.html">
+            
+                <a href="../01/16.html">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1" data-path="../01/17.html">
+            
+                <a href="../01/17.html">
+            
+                    
+                    事件的简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2" data-path="../01/18.html">
+            
+                <a href="../01/18.html">
+            
+                    
+                    事件对象event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.3" data-path="../01/19.html">
+            
+                <a href="../01/19.html">
+            
+                    
+                    事件速查表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02/">
+            
+                <a href="../02/">
+            
+                    
+                    JavaScript深入
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../02/01.html">
+            
+                <a href="../02/01.html">
+            
+                    
+                    js的解析与执行过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../02/02.html">
+            
+                <a href="../02/02.html">
+            
+                    
+                    作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../02/03.html">
+            
+                <a href="../02/03.html">
+            
+                    
+                    闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../02/04.html">
+            
+                <a href="../02/04.html">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../02/05.html">
+            
+                <a href="../02/05.html">
+            
+                    
+                    对象基础知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../02/06.html">
+            
+                <a href="../02/06.html">
+            
+                    
+                    proto属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../02/07.html">
+            
+                <a href="../02/07.html">
+            
+                    
+                    this指向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../02/08.html">
+            
+                <a href="../02/08.html">
+            
+                    
+                    封装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.5" data-path="../02/09.html">
+            
+                <a href="../02/09.html">
+            
+                    
+                    拷贝继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.6" data-path="../02/10.html">
+            
+                <a href="../02/10.html">
+            
+                    
+                    create继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.7" data-path="../02/11.html">
+            
+                <a href="../02/11.html">
+            
+                    
+                    完整的继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    JavaScript模块化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="01.html">
+            
+                <a href="01.html">
+            
+                    
+                    模块化的概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="02.html">
+            
+                <a href="02.html">
+            
+                    
+                    CommonJS规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="03.html">
+            
+                <a href="03.html">
+            
+                    
+                    AMD规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="04.html">
+            
+                <a href="04.html">
+            
+                    
+                    CMD规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4.5" data-path="05.html">
+            
+                <a href="05.html">
+            
+                    
+                    AMD和CMD的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="06.html">
+            
+                <a href="06.html">
+            
+                    
+                    RequireJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="07.html">
+            
+                <a href="07.html">
+            
+                    
+                    seajs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../04/README.md">
+            
+                <span>
+            
+                    
+                    自动化构建工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../04/01.md">
+            
+                <span>
+            
+                    
+                    FIS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../05/">
+            
+                <a href="../05/">
+            
+                    
+                    NodeJS插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../05/nodehuan-jing-da-jian.html">
+            
+                <a href="../05/nodehuan-jing-da-jian.html">
+            
+                    
+                    node环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../05/http-server.html">
+            
+                <a href="../05/http-server.html">
+            
+                    
+                    http-server小型http服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../05/gitbook.html">
+            
+                <a href="../05/gitbook.html">
+            
+                    
+                    gitbook文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../05/gitbookeditorbian-ji-qi.html">
+            
+                <a href="../05/gitbookeditorbian-ji-qi.html">
+            
+                    
+                    GitBookEditor编辑器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >AMD和CMD的区别</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#amd&#x548C;cmd&#x7684;&#x533A;&#x522B;"><b>1. </b>AMD&#x548C;CMD&#x7684;&#x533A;&#x522B;</a></li></ul></div><a href="#amd&#x548C;cmd&#x7684;&#x533A;&#x522B;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="amd&#x548C;cmd&#x7684;&#x533A;&#x522B;"><a name="amd&#x548C;cmd&#x7684;&#x533A;&#x522B;" class="anchor-navigation-ex-anchor" href="#amd&#x548C;cmd&#x7684;&#x533A;&#x522B;"><i class="fa fa-link" aria-hidden="true"></i></a>1. AMD&#x548C;CMD&#x7684;&#x533A;&#x522B;</h1>
+<p>&#x4E0D;&#x540C;&#x70B9;&#xFF1A;</p>
+<ol>
+<li>&#x5BF9;&#x4E8E;&#x4F9D;&#x8D56;&#x7684;&#x6A21;&#x5757;&#xFF0C;AMD&#x662F;<strong>&#x63D0;&#x524D;&#x6267;&#x884C;</strong>,CMD&#x662F;<strong>&#x5EF6;&#x8FDF;&#x6267;&#x884C;</strong></li>
+<li>CMD&#x63A8;&#x5D07;<strong>&#x4F9D;&#x8D56;&#x5C31;&#x8FD1;</strong>&#xFF0C;AMD&#x63A8;&#x5D07;<strong>&#x4F9D;&#x8D56;&#x524D;&#x7F6E;</strong>&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;AMD&#x5FC5;&#x9700;&#x5728;&#x5934;&#x90E8;&#x53C2;&#x6570;&#x4E2D;&#x5199;&#x4F9D;&#x8D56;&#x6A21;&#x5757;&#xFF0C;CMD&#x5C31;&#x662F;&#x4E0D;&#x7BA1;&#x4EE3;&#x7801;&#x5199;&#x5230;&#x54EA;&#x7A81;&#x7136;&#x53D1;&#x73B0;&#x9700;&#x8981;&#x4F9D;&#x8D56;&#x53E6;&#x4E00;&#x4E2A;&#x6A21;&#x5757;&#xFF0C;&#x90A3;&#x5C31;&#x5728;&#x5F53;&#x524D;&#x4EE3;&#x7801;&#x7528;require&#x5F15;&#x5165;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;</li>
+</ol>
+<p>&#x76F8;&#x540C;&#x70B9;&#xFF1A;</p>
+<p>&#x90FD;&#x6709;define&#x548C;require&#xFF0C;&#x800C;&#x4E14;&#x8C03;&#x7528;&#x65B9;&#x5F0F;&#x5B9E;&#x9645;&#x90FD;&#x53EF;&#x4EE5;&#x6DFB;&#x52A0;&#x4F9D;&#x8D56;&#x53C2;&#x6570;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#x90FD;&#x53EF;&#x4EE5;&#x7528;&#x63D0;&#x4F9B;&#x4F9D;&#x8D56;&#x53C2;&#x6570;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x5B9E;&#x73B0;&#x9884;&#x52A0;&#x8F7D;&#x4F9D;&#x8D56;&#x6A21;&#x5757;</p>
+<p>&#x4F46;&#x662F;&#x4E0D;&#x63A8;&#x8350;&#x56E0;&#x4E3A;  &#x6CE8;&#x610F;&#xFF1A;&#x5E26; id &#x548C; deps &#x53C2;&#x6570;&#x7684; define &#x7528;&#x6CD5;&#x4E0D;&#x5C5E;&#x4E8E; CMD &#x89C4;&#x8303;</p>
+<p>&#x8BF4;&#x4E86;&#x8FD9;&#x4E48;&#x591A;&#x7406;&#x5FF5;&#x77E5;&#x8BC6;&#xFF0C;&#x4E0D;&#x4F1A;&#x7528;&#x8FD8;&#x662F;&#x767D;&#x642D;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x5C06;&#x5B66;&#x4E60;RequireJS&#xFF08;AMD&#xFF09;&#x548C;SeaJS&#xFF08;CMD&#xFF09;&#xFF0C;&#x6765;&#x5B66;&#x4E60;&#x5982;&#x4F55;&#x4F7F;&#x7528;&#x5B83;&#x4EEC;&#x8FDB;&#x884C;&#x6A21;&#x5757;&#x5316;&#x7684;&#x7F16;&#x7A0B;&#x5427;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="04.html" class="navigation navigation-prev " aria-label="Previous page: CMD规范">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="06.html" class="navigation navigation-next " aria-label="Next page: RequireJS">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"AMD和CMD的区别","level":"1.4.5","depth":2,"next":{"title":"RequireJS","level":"1.4.6","depth":2,"path":"03/06.md","ref":"03/06.md","articles":[]},"previous":{"title":"CMD规范","level":"1.4.4","depth":2,"path":"03/04.md","ref":"03/04.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex","emphasize","splitter","expandable-chapters-small","multipart","prism","-highlight","-sharing","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"emphasize":{},"livereload":{},"splitter":{},"search":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"showLevel":true},"expandable-chapters-small":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的个人博客","language":"zh-hans","gitbook":"3.2.2"},"file":{"path":"03/05.md","mtime":"2017-07-11T02:37:10.971Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-13T06:45:07.395Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
