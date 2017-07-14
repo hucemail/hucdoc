@@ -43,6 +43,8 @@
     * [seajs](03/07.md)
 * [自动化构建工具](04/README.md)
     * [FIS](04/01.md)
+	    * [环境搭建](04/02.md)
+	    * [构建FIS](04/03.md)
 * [NodeJS插件](05/README.md)
     * [node环境搭建](05/nodehuan-jing-da-jian.md)
     * [http-server小型http服务器](05/http-server.md)
