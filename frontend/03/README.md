@@ -9,3 +9,6 @@
 * [AMD和CMD的区别](05.md)
 * [RequireJS](06.md)
 * [seajs](07.md)
+
+
+> 本章源码：[JavaScript模块化.zip](../assets/JavaScript模块化.zip)

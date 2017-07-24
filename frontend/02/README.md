@@ -13,3 +13,5 @@
 	* [拷贝继承](09.md)
 	* [create继承](10.md)
 	* [完整的继承](11.md)
+
+> 本章源码：[JavaScript深入.zip](../assets/JavaScript深入.zip)

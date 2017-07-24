@@ -9,3 +9,5 @@
 * [函数](05.md)
 * [数组、正则、日期等内置对象以及自定义对象](06.md)
 * [事件](16.md)
+
+> 本章源码：[JavaScript初步.zip](../assets/JavaScript初步.zip)
