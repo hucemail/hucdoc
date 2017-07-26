@@ -48,6 +48,8 @@
 	    * [开发调试](04/04.md)
 	    * [初级使用FIS3](04/05.md)
 	    * [集成解决方案FIS3](04/06.md)
+* [前端优化方案](06/README.md)
+	* [nginx](06/01.md)
 * [NodeJS插件](05/README.md)
     * [node环境搭建](05/nodehuan-jing-da-jian.md)
     * [http-server小型http服务器](05/http-server.md)
