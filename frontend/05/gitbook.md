@@ -80,3 +80,55 @@ SUMMARY.md
 打包
 
 	gitbook build
+
+
+# 番外篇
+
+我经常使用的gitbook插件,[点击本地下载](../assets/gitbook-node_modules.zip)
+
+book.json
+
+	{
+	    "title": "我的个人博客",
+	    "gitbook": "3.2.2",
+	    "language": "zh-hans",
+	    "plugins": [
+	        "anchor-navigation-ex",
+	        "emphasize",
+	        "splitter",
+	        "expandable-chapters-small",
+	        "multipart",
+	        "prism",
+	        "-highlight",
+	        "-sharing"
+	    ],
+	    "pluginsConfig": {
+	        "prism": {
+	            "css": [
+	              "prismjs/themes/prism-okaidia.css"
+	            ]
+	          },
+	        "anchor-navigation-ex": {
+	                "showLevel": true,
+	                "associatedWithSummary": true,
+	                "mode": "float",
+	                "float": {
+	                    "showLevelIcon": false,
+	                    "level1Icon": "fa fa-hand-o-right",
+	                    "level2Icon": "fa fa-hand-o-right",
+	                    "level3Icon": "fa fa-hand-o-right"
+	                },
+	                "pageTop": {
+	                    "showLevelIcon": false,
+	                    "level1Icon": "fa fa-hand-o-right",
+	                    "level2Icon": "fa fa-hand-o-right",
+	                    "level3Icon": "fa fa-hand-o-right"
+	                }
+	        }
+	    }
+	}
+
+
+当执行``gitbook build``失败，可以查看控制台输出信息，使用``{% raw %}{% endraw %}``包裹相应的行.
+
+想要给文字加背景颜色可以使用``{% em type="red" %}{% endem %}``包裹
