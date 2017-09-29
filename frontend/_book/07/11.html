@@ -1,0 +1,2066 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>11.自定义指令 · 我的个人博客</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-okaidia.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="12.html" />
+    
+    
+    <link rel="prev" href="10.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../01/">
+            
+                <a href="../01/">
+            
+                    
+                    JavaScript初步
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../01/01.html">
+            
+                <a href="../01/01.html">
+            
+                    
+                    变量和数据类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../01/02.html">
+            
+                <a href="../01/02.html">
+            
+                    
+                    类型转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../01/03.html">
+            
+                <a href="../01/03.html">
+            
+                    
+                    表达式和运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../01/04.html">
+            
+                <a href="../01/04.html">
+            
+                    
+                    流程控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../01/05.html">
+            
+                <a href="../01/05.html">
+            
+                    
+                    函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../01/06.html">
+            
+                <a href="../01/06.html">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.6.1" data-path="../01/07.html">
+            
+                <a href="../01/07.html">
+            
+                    
+                    自定义对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.2" data-path="../01/08.html">
+            
+                <a href="../01/08.html">
+            
+                    
+                    属性的基本操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.3" data-path="../01/09.html">
+            
+                <a href="../01/09.html">
+            
+                    
+                    对象的原型结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.4" data-path="../01/10.html">
+            
+                <a href="../01/10.html">
+            
+                    
+                    属性的特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.5" data-path="../01/11.html">
+            
+                <a href="../01/11.html">
+            
+                    
+                    对象的特性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.6" data-path="../01/12.html">
+            
+                <a href="../01/12.html">
+            
+                    
+                    Date对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.7" data-path="../01/13.html">
+            
+                <a href="../01/13.html">
+            
+                    
+                    RegExp对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.8" data-path="../01/14.html">
+            
+                <a href="../01/14.html">
+            
+                    
+                    Array对象
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6.9" data-path="../01/15.html">
+            
+                <a href="../01/15.html">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../01/16.html">
+            
+                <a href="../01/16.html">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.7.1" data-path="../01/17.html">
+            
+                <a href="../01/17.html">
+            
+                    
+                    事件的简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.2" data-path="../01/18.html">
+            
+                <a href="../01/18.html">
+            
+                    
+                    事件对象event
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7.3" data-path="../01/19.html">
+            
+                <a href="../01/19.html">
+            
+                    
+                    事件速查表
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../02/">
+            
+                <a href="../02/">
+            
+                    
+                    JavaScript深入
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../02/01.html">
+            
+                <a href="../02/01.html">
+            
+                    
+                    js的解析与执行过程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../02/02.html">
+            
+                <a href="../02/02.html">
+            
+                    
+                    作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../02/03.html">
+            
+                <a href="../02/03.html">
+            
+                    
+                    闭包
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../02/04.html">
+            
+                <a href="../02/04.html">
+            
+                    
+                    对象
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.4.1" data-path="../02/05.html">
+            
+                <a href="../02/05.html">
+            
+                    
+                    对象基础知识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.2" data-path="../02/06.html">
+            
+                <a href="../02/06.html">
+            
+                    
+                    proto属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.3" data-path="../02/07.html">
+            
+                <a href="../02/07.html">
+            
+                    
+                    this指向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.4" data-path="../02/08.html">
+            
+                <a href="../02/08.html">
+            
+                    
+                    封装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.5" data-path="../02/09.html">
+            
+                <a href="../02/09.html">
+            
+                    
+                    拷贝继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.6" data-path="../02/10.html">
+            
+                <a href="../02/10.html">
+            
+                    
+                    create继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4.7" data-path="../02/11.html">
+            
+                <a href="../02/11.html">
+            
+                    
+                    完整的继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../03/">
+            
+                <a href="../03/">
+            
+                    
+                    JavaScript模块化
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../03/01.html">
+            
+                <a href="../03/01.html">
+            
+                    
+                    模块化的概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../03/02.html">
+            
+                <a href="../03/02.html">
+            
+                    
+                    CommonJS规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../03/03.html">
+            
+                <a href="../03/03.html">
+            
+                    
+                    AMD规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../03/04.html">
+            
+                <a href="../03/04.html">
+            
+                    
+                    CMD规范
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../03/05.html">
+            
+                <a href="../03/05.html">
+            
+                    
+                    AMD和CMD的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../03/06.html">
+            
+                <a href="../03/06.html">
+            
+                    
+                    RequireJS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../03/07.html">
+            
+                <a href="../03/07.html">
+            
+                    
+                    seajs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    AngularJS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="01.html">
+            
+                <a href="01.html">
+            
+                    
+                    01.介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="02.html">
+            
+                <a href="02.html">
+            
+                    
+                    02.第一个例子
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="03.html">
+            
+                <a href="03.html">
+            
+                    
+                    03.$scope使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="04.html">
+            
+                <a href="04.html">
+            
+                    
+                    04.ng-cloak解决闪屏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="05.html">
+            
+                <a href="05.html">
+            
+                    
+                    05.指令1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="06.html">
+            
+                <a href="06.html">
+            
+                    
+                    06.内置函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="07.html">
+            
+                <a href="07.html">
+            
+                    
+                    07.详解ng-repeat指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="08.html">
+            
+                <a href="08.html">
+            
+                    
+                    08.指令2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="09.html">
+            
+                <a href="09.html">
+            
+                    
+                    09.过滤器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="10.html">
+            
+                <a href="10.html">
+            
+                    
+                    10.数据监听
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.11" data-path="11.html">
+            
+                <a href="11.html">
+            
+                    
+                    11.自定义指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="12.html">
+            
+                <a href="12.html">
+            
+                    
+                    12.自定义指令隔离作用域
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.13" data-path="13.html">
+            
+                <a href="13.html">
+            
+                    
+                    13.服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.14" data-path="14.html">
+            
+                <a href="14.html">
+            
+                    
+                    14.自定义服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.15" data-path="15.html">
+            
+                <a href="15.html">
+            
+                    
+                    15.路由
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../08/">
+            
+                <a href="../08/">
+            
+                    
+                    HTML5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../08/01.html">
+            
+                <a href="../08/01.html">
+            
+                    
+                    01.标签
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../08/02.html">
+            
+                <a href="../08/02.html">
+            
+                    
+                    02.表单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../08/03.html">
+            
+                <a href="../08/03.html">
+            
+                    
+                    03.绘画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../08/04.html">
+            
+                <a href="../08/04.html">
+            
+                    
+                    04.音视频
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../08/05.html">
+            
+                <a href="../08/05.html">
+            
+                    
+                    05.web存储
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../08/06.html">
+            
+                <a href="../08/06.html">
+            
+                    
+                    06.SVG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../08/07.html">
+            
+                <a href="../08/07.html">
+            
+                    
+                    07.服务器推送
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../08/08.html">
+            
+                <a href="../08/08.html">
+            
+                    
+                    08.WEBGL
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../09/">
+            
+                <a href="../09/">
+            
+                    
+                    CSS3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../09/01.html">
+            
+                <a href="../09/01.html">
+            
+                    
+                    01.选择器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../09/02.html">
+            
+                <a href="../09/02.html">
+            
+                    
+                    02.文字样式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../09/03.html">
+            
+                <a href="../09/03.html">
+            
+                    
+                    03.盒模型和布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../09/04.html">
+            
+                <a href="../09/04.html">
+            
+                    
+                    04.背景边框属性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../09/05.html">
+            
+                <a href="../09/05.html">
+            
+                    
+                    05.media响应式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../09/06.html">
+            
+                <a href="../09/06.html">
+            
+                    
+                    06.2D变形
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../09/07.html">
+            
+                <a href="../09/07.html">
+            
+                    
+                    07.动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../09/08.html">
+            
+                <a href="../09/08.html">
+            
+                    
+                    08.CssSprint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.9" data-path="../09/09.html">
+            
+                <a href="../09/09.html">
+            
+                    
+                    09.各种居中
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.10" data-path="../09/10.html">
+            
+                <a href="../09/10.html">
+            
+                    
+                    10.各种定位
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.11" data-path="../09/11.html">
+            
+                <a href="../09/11.html">
+            
+                    
+                    11.swiper框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.12" data-path="../09/12.html">
+            
+                <a href="../09/12.html">
+            
+                    
+                    12.微场景
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.13" data-path="../09/13.html">
+            
+                <a href="../09/13.html">
+            
+                    
+                    13.flex布局
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.14" data-path="../09/14.html">
+            
+                <a href="../09/14.html">
+            
+                    
+                    14.阿里矢量图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.15" data-path="../09/15.html">
+            
+                <a href="../09/15.html">
+            
+                    
+                    15.页面加载进度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.16" data-path="../09/16.html">
+            
+                <a href="../09/16.html">
+            
+                    
+                    16.wowjs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../10/">
+            
+                <a href="../10/">
+            
+                    
+                    Bootstrap
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../10/01.html">
+            
+                <a href="../10/01.html">
+            
+                    
+                    01.栅格系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../10/02.html">
+            
+                <a href="../10/02.html">
+            
+                    
+                    02.排版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../10/03.html">
+            
+                <a href="../10/03.html">
+            
+                    
+                    03.代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../10/04.html">
+            
+                <a href="../10/04.html">
+            
+                    
+                    04.表格
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../10/05.html">
+            
+                <a href="../10/05.html">
+            
+                    
+                    05.按钮
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../10/06.html">
+            
+                <a href="../10/06.html">
+            
+                    
+                    06.图片
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="../10/07.html">
+            
+                <a href="../10/07.html">
+            
+                    
+                    07.辅助类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8" data-path="../10/08.html">
+            
+                <a href="../10/08.html">
+            
+                    
+                    08.组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9" data-path="../10/09.html">
+            
+                <a href="../10/09.html">
+            
+                    
+                    09.表单
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.10" data-path="../10/10.html">
+            
+                <a href="../10/10.html">
+            
+                    
+                    10.JS插件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../11/">
+            
+                <a href="../11/">
+            
+                    
+                    NodeJS
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../11/01.html">
+            
+                <a href="../11/01.html">
+            
+                    
+                    01.NodeJS的介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../11/02.html">
+            
+                <a href="../11/02.html">
+            
+                    
+                    02.模块系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../11/03.html">
+            
+                <a href="../11/03.html">
+            
+                    
+                    03.模块化开发
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../04/">
+            
+                <a href="../04/">
+            
+                    
+                    自动化构建工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../04/01.html">
+            
+                <a href="../04/01.html">
+            
+                    
+                    FIS3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1.1" data-path="../04/02.html">
+            
+                <a href="../04/02.html">
+            
+                    
+                    环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.2" data-path="../04/03.html">
+            
+                <a href="../04/03.html">
+            
+                    
+                    初识FIS3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.3" data-path="../04/04.html">
+            
+                <a href="../04/04.html">
+            
+                    
+                    开发调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.4" data-path="../04/05.html">
+            
+                <a href="../04/05.html">
+            
+                    
+                    初级使用FIS3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.5" data-path="../04/06.html">
+            
+                <a href="../04/06.html">
+            
+                    
+                    集成解决方案FIS3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.1.6" data-path="../04/07.html">
+            
+                <a href="../04/07.html">
+            
+                    
+                    集成方案之前台demo
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../06/">
+            
+                <a href="../06/">
+            
+                    
+                    前端优化方案
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../06/01.html">
+            
+                <a href="../06/01.html">
+            
+                    
+                    nginx
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../05/">
+            
+                <a href="../05/">
+            
+                    
+                    NodeJS插件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../05/nodehuan-jing-da-jian.html">
+            
+                <a href="../05/nodehuan-jing-da-jian.html">
+            
+                    
+                    node环境搭建
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.2" data-path="../05/http-server.html">
+            
+                <a href="../05/http-server.html">
+            
+                    
+                    http-server小型http服务器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.3" data-path="../05/gitbook.html">
+            
+                <a href="../05/gitbook.html">
+            
+                    
+                    gitbook文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12.4" data-path="../05/gitbookeditorbian-ji-qi.html">
+            
+                <a href="../05/gitbookeditorbian-ji-qi.html">
+            
+                    
+                    GitBookEditor编辑器
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >11.自定义指令</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x524D;&#x8A00;"><b>1. </b>&#x524D;&#x8A00;</a></li><li><span class="title-icon "></span><a href="#&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x8BED;&#x6CD5;&#x89C4;&#x5219;"><b>2. </b>&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x8BED;&#x6CD5;&#x89C4;&#x5219;</a></li><li><span class="title-icon "></span><a href="#restrict"><b>3. </b>restrict</a></li><li><span class="title-icon "></span><a href="#replace"><b>4. </b>replace</a></li><li><span class="title-icon "></span><a href="#transclude"><b>5. </b>transclude</a></li><li><span class="title-icon "></span><a href="#templateurl"><b>6. </b>templateUrl</a></li><li><span class="title-icon "></span><a href="#controller"><b>7. </b>controller</a></li><li><span class="title-icon "></span><a href="#link"><b>8. </b>link</a></li></ul></div><a href="#&#x524D;&#x8A00;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="&#x524D;&#x8A00;"><a name="&#x524D;&#x8A00;" class="anchor-navigation-ex-anchor" href="#&#x524D;&#x8A00;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x524D;&#x8A00;</h1>
+<p>&#x524D;&#x9762;&#x5DF2;&#x7ECF;&#x5B66;&#x4E60;&#x5230;&#x4E86;&#x5F88;&#x591A;angular&#x5185;&#x7F6E;&#x7684;&#x6307;&#x4EE4;&#xFF0C;&#x8FD9;&#x5C0F;&#x8282;&#x6765;&#x5B66;&#x4E60;&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x3002;</p>
+<ul>
+<li>restrict&#xFF1A;&#x9650;&#x5236;&#x7EA6;&#x675F;</li>
+<li>replace:&#x66FF;&#x6362;&#x539F;&#x6709;&#x6807;&#x7B7E;</li>
+<li>transclude&#xFF1A;&#x662F;&#x5426;&#x4FDD;&#x7559;&#x539F;&#x6709;&#x6807;&#x7B7E;&#x91CC;&#x7684;&#x5185;&#x5BB9;</li>
+<li>templateUrl&#xFF1A;&#x6A21;&#x677F;&#x5730;&#x5740;</li>
+<li>template&#xFF1A;&#x6A21;&#x677F;&#x5185;&#x5BB9;</li>
+<li>controller:&#x63A7;&#x5236;&#x5668;</li>
+<li>link&#xFF1A;&#x5C5E;&#x6027;</li>
+</ul>
+<h1 id="&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x8BED;&#x6CD5;&#x89C4;&#x5219;"><a name="&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x8BED;&#x6CD5;&#x89C4;&#x5219;" class="anchor-navigation-ex-anchor" href="#&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x8BED;&#x6CD5;&#x89C4;&#x5219;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x8BED;&#x6CD5;&#x89C4;&#x5219;</h1>
+<p>&#x548C;&#x81EA;&#x5B9A;&#x4E49;&#x8FC7;&#x6EE4;&#x5668;&#x5DEE;&#x4E0D;&#x591A;&#xFF0C;&#x8FC7;&#x6EE4;&#x5668;&#x8FD4;&#x56DE;&#x95ED;&#x5305;&#x51FD;&#x6570;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#x3002;</p>
+<p>&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x4E2D;&#x6709;&#x5F88;&#x591A;&#x5C5E;&#x6027;&#x3002;</p>
+<pre class="language-"><code>    app.directive(&quot;newList&quot;, function () {
+        return {
+            restrict:&apos;A&apos;,
+            template:&quot;&#x521D;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&quot;
+        }
+    });
+</code></pre><p><span class="pg-emphasize pg-emphasize-red" style="">&#x9700;&#x8981;&#x6CE8;&#x610F;&#x4E00;&#x70B9;&#xFF0C;<strong>&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#x540D;&#x4F7F;&#x7528;&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x65F6;&#xFF0C;&#x4F7F;&#x7528;&#x9700;&#x8981;&#x4EE5;&#x4E2D;&#x5212;&#x7EBF;&#x9694;&#x5F00;&#x3002;</strong></span></p>
+<h1 id="restrict"><a name="restrict" class="anchor-navigation-ex-anchor" href="#restrict"><i class="fa fa-link" aria-hidden="true"></i></a>3. restrict</h1>
+<blockquote>
+<p>restrict&#x8868;&#x793A;&#x5982;&#x4F55;&#x4F7F;&#x7528;&#x8FD9;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&#xFF0C;&#x5B83;&#x6709;&#x4E0B;&#x5217;&#x51E0;&#x79CD;&#x503C;</p>
+<ul>
+<li>A:&#x4EE5;&#x5C5E;&#x6027;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;attribute</li>
+<li>E&#xFF1A;&#x4EE5;&#x5143;&#x7D20;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;Element</li>
+<li>C&#xFF1A;&#x4EE5;class&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4E0D;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;</li>
+</ul>
+</blockquote>
+<p>&#x4E00;&#x822C;&#x72EC;&#x7ACB;&#x7EC4;&#x4EF6;&#xFF0C;&#x5982;&#xFF1A;&#x5934;&#x90E8;&#x3001;&#x5217;&#x8868;&#x7B49;&#x7B49;&#x4F7F;&#x7528;E&#xFF0C;&#x4E0D;&#x662F;&#x72EC;&#x7ACB;&#x6027;&#x8D28;&#x7684;&#x4F7F;&#x7528;A&#x3002;</p>
+<p>&#x4F8B;&#x5B50;&#xFF1A;</p>
+<pre class="language-"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Content-Type<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/html; charset<span class="token punctuation">=</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">ng-cloak</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ng-cloak<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ctrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">new-list</span><span class="token punctuation">&gt;</span></span>xxx<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>new-list</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>new-list</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>bundles/js/angular.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+        var app = angular.module(&quot;app&quot;, []);
+        app.directive(&quot;newList&quot;, function () {
+            return {
+                restrict:&apos;AE&apos;,
+                template:&quot;&#x521D;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;&quot;
+            }
+        });
+        app.controller(&quot;ctrl&quot;, [&quot;$scope&quot;, &quot;$http&quot;, function ($scope, $http) {
+
+        }]);
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><h1 id="replace"><a name="replace" class="anchor-navigation-ex-anchor" href="#replace"><i class="fa fa-link" aria-hidden="true"></i></a>4. replace</h1>
+<blockquote>
+<p>&#x66FF;&#x6362;&#xFF0C;&#x9ED8;&#x8BA4;&#x662F;false&#xFF0C;template&#x7684;&#x5185;&#x5BB9;&#x4F1A;&#x653E;&#x7F6E;&#x5728;&#x539F;&#x6709;&#x6807;&#x7B7E;&#x91CC;&#x9762;&#x3002;</p>
+<p>&#x8BBE;&#x7F6E;&#x4E3A;true&#x540E;&#xFF0C;&#x539F;&#x6709;&#x6807;&#x7B7E;&#x4F1A;&#x88AB;&#x66FF;&#x6362;&#x6389;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x8BBE;&#x7F6E;&#x4E3A;true&#x4E4B;&#x540E;template&#x6216;&#x8005;templateUrl&#x7684;&#x6839;&#x5143;&#x7D20;&#x5FC5;&#x987B;&#x662F;&#x5757;&#x7EA7;&#x6807;&#x7B7E;&#x3002;</p>
+</blockquote>
+<pre class="language-"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Content-Type<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/html; charset<span class="token punctuation">=</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">ng-cloak</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ng-cloak<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ctrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">new-list</span><span class="token punctuation">&gt;</span></span>xxx<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>hr</span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>new-list</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>new-list</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>bundles/js/angular.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+        var app = angular.module(&quot;app&quot;, []);
+        app.directive(&quot;newList&quot;, function () {
+            return {
+                restrict:&apos;AE&apos;,
+                template: &quot;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>&#x521D;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>&quot;,
+                replace:true
+            }
+        });
+        app.controller(&quot;ctrl&quot;, [&quot;$scope&quot;, &quot;$http&quot;, function ($scope, $http) {
+
+        }]);
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><h1 id="transclude"><a name="transclude" class="anchor-navigation-ex-anchor" href="#transclude"><i class="fa fa-link" aria-hidden="true"></i></a>5. transclude</h1>
+<blockquote>
+<p>&#x8FD9;&#x662F;&#x662F;&#x5426;&#x4FDD;&#x7559;&#x539F;&#x6709;&#x6807;&#x7B7E;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x6CE8;&#x610F;&#x548C;replace&#x533A;&#x5206;&#x5F00;&#x6765;&#x3002;</p>
+<p>&#x5B83;&#x9ED8;&#x8BA4;&#x662F;false&#xFF0C;&#x4E0D;&#x4FDD;&#x7559;&#x539F;&#x6709;&#x6807;&#x7B7E;&#x4E2D;&#x7684;innerHTML</p>
+<p>&#x5C06;&#x5B83;&#x8BBE;&#x7F6E;&#x4E3A;true&#x4E4B;&#x540E;&#xFF0C;&#x5728;&#x52A0;&#x4E0A;ng-transclude&#x5C31;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x4FDD;&#x7559;&#x4E86;</p>
+</blockquote>
+<pre class="language-"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Content-Type<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/html; charset<span class="token punctuation">=</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">ng-cloak</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ng-cloak<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ctrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">new-list</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">=&quot;</span><span class="token attr-value"><span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>&#x539F;&#x6709;&#x5185;&#x5BB9;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>bundles/js/angular.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+        var app = angular.module(&quot;app&quot;, []);
+        app.directive(&quot;newList&quot;, function () {
+            return {
+                restrict:&apos;AE&apos;,
+                template: &quot;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">ng-transclude</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&apos;</span><span class="token punctuation">&apos;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>&#x521D;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>&quot;,
+                transclude: true
+            }
+        });
+        app.controller(&quot;ctrl&quot;, [&quot;$scope&quot;, &quot;$http&quot;, function ($scope, $http) {
+
+        }]);
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><p>&#x7ECF;&#x8FC7;&#x5904;&#x7406;&#x4E4B;&#x540E;&#x7684;&#x6E90;&#x7801;&#xFF1A;</p>
+<pre class="language-"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">new-list</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">ng-transclude</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span><span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span><span class="token style-attr language-css"><span class="token attr-name"> <span class="token attr-name">style</span></span><span class="token punctuation">=&quot;</span><span class="token attr-value"><span class="token property">color</span><span class="token punctuation">:</span>red<span class="token punctuation">;</span></span><span class="token punctuation">&quot;</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ng-scope<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>&#x539F;&#x6709;&#x5185;&#x5BB9;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>&#x521D;&#x8BC6;&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><h1 id="templateurl"><a name="templateurl" class="anchor-navigation-ex-anchor" href="#templateurl"><i class="fa fa-link" aria-hidden="true"></i></a>6. templateUrl</h1>
+<blockquote>
+<p>&#x524D;&#x9762;&#x5199;&#x7684;template&#x5F88;&#x5C40;&#x9650;&#x6027;&#xFF0C;&#x5F88;&#x591A;&#x5927;&#x6BB5;&#x7684;html&#x4EE3;&#x7801;&#x6CA1;&#x6CD5;&#x5199;&#x3002;</p>
+<p>&#x770B;&#x540D;&#x79F0;&#x4E5F;&#x77E5;&#x9053;templateUrl&#x5176;&#x5B9E;&#x5C31;&#x662F;&#x5B83;&#x7684;&#x5347;&#x7EA7;&#x7248;&#x672C;</p>
+<p>&#x8FD9;&#x91CC;&#x8FD8;&#x662F;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x4F7F;&#x7528;&#x4E86;replace&#x4E3A;true&#x540E;&#xFF0C;&#x6A21;&#x677F;&#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x5FC5;&#x987B;&#x662F;&#x5757;&#x7EA7;&#x6807;&#x7B7E;&#x3002;</p>
+<p>&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x7EF4;&#x62A4;&#xFF0C;&#x6307;&#x4EE4;&#x540D;&#x79F0;&#x548C;&#x6A21;&#x677F;&#x9875;&#x9762;&#x540D;&#x79F0;&#x4E00;&#x81F4;&#x3002;</p>
+</blockquote>
+<pre class="language-"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Content-Type<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/html; charset<span class="token punctuation">=</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">ng-cloak</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ng-cloak<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ctrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>new-list</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>new-list</span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>bundles/js/angular.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+        var app = angular.module(&quot;app&quot;, []);
+        app.directive(&quot;newList&quot;, function () {
+            return {
+                restrict: &apos;E&apos;,
+                replace: true,
+                templateUrl: &quot;newList.html&quot;
+            }
+        });
+        app.controller(&quot;ctrl&quot;, [&quot;$scope&quot;, &quot;$http&quot;, function ($scope, $http) {
+
+        }]);
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><p>newList.html</p>
+<pre class="language-"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>&#x6211;&#x662F;&#x6A21;&#x677F;newList<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre><h1 id="controller"><a name="controller" class="anchor-navigation-ex-anchor" href="#controller"><i class="fa fa-link" aria-hidden="true"></i></a>7. controller</h1>
+<blockquote>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x6307;&#x4EE4;(&#x7EC4;&#x4EF6;)&#x76F8;&#x5F53;&#x4E8E;&#x4E00;&#x4E2A;&#x5C0F;&#x5BB6;&#xFF0C;&#x5B83;&#x6709;&#x81EA;&#x5DF1;&#x7684;controller&#x3001;scope&#x7B49;&#x7B49;&#x3002;</p>
+<p>scope&#x9694;&#x79BB;&#x4F5C;&#x7528;&#x57DF;&#x5728;&#x7A0D;&#x540E;&#x4F1A;&#x4ECB;&#x7ECD;&#x3002;</p>
+</blockquote>
+<pre class="language-"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Content-Type<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/html; charset<span class="token punctuation">=</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">ng-cloak</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ng-cloak<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ctrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ddl-shop-cart</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ddl-shop-cart</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>bundles/js/angular.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+        var app = angular.module(&quot;app&quot;, []);
+        app.directive(&quot;ddlShopCart&quot;, function () {
+            return {
+                restrict:&apos;E&apos;,
+                templateUrl: &quot;shopCart.html&quot;,
+                replace: true,
+                scope: {},
+                controller: [&quot;$scope&quot;, &quot;$http&quot;, function ($scope, $http) {
+                    $scope.title = &quot;&#x6307;&#x4EE4;&#x63A7;&#x5236;&#x5668;&quot;;
+                }]
+            }
+        });
+        app.controller(&quot;ctrl&quot;, [&quot;$scope&quot;, &quot;$http&quot;, function ($scope, $http) {
+            $scope.title = &quot;&#x63A7;&#x5236;&#x5668;&quot;;
+        }]);
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><p>shopCart.html:</p>
+<pre class="language-"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>      
+</code></pre><h1 id="link"><a name="link" class="anchor-navigation-ex-anchor" href="#link"><i class="fa fa-link" aria-hidden="true"></i></a>8. link</h1>
+<blockquote>
+<p>link&#x51FD;&#x6570;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x64CD;&#x4F5C;dom&#x5143;&#x7D20;,&#x7ED9;dom&#x5143;&#x7D20;&#x7ED1;&#x5B9A;&#x4E8B;&#x4EF6;&#x548C;&#x76D1;&#x542C;.</p>
+<p>&#x5B83;&#x6709;&#x4E94;&#x4E2A;&#x53C2;&#x6570;&#x53EF;&#x4EE5;&#x9009;&#x7528;:</p>
+<ul>
+<li>scope:&#x6307;&#x4EE4;&#x6240;&#x5728;&#x7684;&#x4F5C;&#x7528;&#x57DF;  </li>
+<li>element&#xFF1A;&#x6307;&#x4EE4;&#x5143;&#x7D20;&#x7684;&#x5C01;&#x88C5;&#xFF0C;&#x53EF;&#x4EE5;&#x8C03;&#x7528;angular&#x5C01;&#x88C5;&#x7684;&#x7B80;&#x88C5;jq&#x65B9;&#x6CD5;&#x548C;&#x5C5E;&#x6027;  </li>
+<li>attr&#xFF1A;&#x6307;&#x4EE4;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x7684;&#x96C6;&#x5408;  </li>
+<li>ctrl&#xFF1A;&#x7528;&#x4E8E;&#x8C03;&#x7528;&#x5176;&#x4ED6;&#x6307;&#x4EE4;&#x7684;&#x65B9;&#x6CD5;,&#x6307;&#x4EE4;&#x4E4B;&#x95F4;&#x7684;&#x4E92;&#x76F8;&#x901A;&#x4FE1;&#x4F7F;&#x7528;&#xFF0C;&#x9700;&#x8981;&#x914D;&#x5408;require  </li>
+<li>linker:&#x7528;&#x4E8E;transClude&#x91CC;&#x9762;&#x5D4C;&#x5165;&#x7684;&#x5185;&#x5BB9;  </li>
+</ul>
+</blockquote>
+<pre class="language-"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">ng-app</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>app<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>Content-Type<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/html; charset<span class="token punctuation">=</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>utf-8<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span> <span class="token attr-name">ng-cloak</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ng-cloak<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ng-controller</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>ctrl<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ddl-shop-cart</span> <span class="token attr-name">ddl-color</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>red<span class="token punctuation">&quot;</span></span> <span class="token attr-name">ddl-font-size</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>12px<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ddl-shop-cart</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>bundles/js/angular.min.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span>
+        var app = angular.module(&quot;app&quot;, []);
+        app.directive(&quot;ddlShopCart&quot;, function () {
+            return {
+                restrict:&apos;E&apos;,
+                templateUrl: &quot;shopCart.html&quot;,
+                replace: true,
+                scope: {},
+                controller: [&quot;$scope&quot;, &quot;$http&quot;, function ($scope, $http) {
+                    $scope.title = &quot;&#x6307;&#x4EE4;&#x63A7;&#x5236;&#x5668;&quot;;
+                }],
+                //link&#x51FD;&#x6570;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x64CD;&#x4F5C;dom&#x5143;&#x7D20;,&#x7ED9;dom&#x5143;&#x7D20;&#x7ED1;&#x5B9A;&#x4E8B;&#x4EF6;&#x548C;&#x76D1;&#x542C;.  
+                link: function (scope, element, attr, ctrl, linker) {
+                    //scope:&#x6307;&#x4EE4;&#x6240;&#x5728;&#x7684;&#x4F5C;&#x7528;&#x57DF;  
+                    //element&#xFF1A;&#x6307;&#x4EE4;&#x5143;&#x7D20;&#x7684;&#x5C01;&#x88C5;&#xFF0C;&#x53EF;&#x4EE5;&#x8C03;&#x7528;angular&#x5C01;&#x88C5;&#x7684;&#x7B80;&#x88C5;jq&#x65B9;&#x6CD5;&#x548C;&#x5C5E;&#x6027;  
+                    //attr&#xFF1A;&#x6307;&#x4EE4;&#x5143;&#x7D20;&#x7684;&#x5C5E;&#x6027;&#x7684;&#x96C6;&#x5408;  
+                    //ctrl&#xFF1A;&#x7528;&#x4E8E;&#x8C03;&#x7528;&#x5176;&#x4ED6;&#x6307;&#x4EE4;&#x7684;&#x65B9;&#x6CD5;,&#x6307;&#x4EE4;&#x4E4B;&#x95F4;&#x7684;&#x4E92;&#x76F8;&#x901A;&#x4FE1;&#x4F7F;&#x7528;&#xFF0C;&#x9700;&#x8981;&#x914D;&#x5408;require  
+                    //linker:&#x7528;&#x4E8E;transClude&#x91CC;&#x9762;&#x5D4C;&#x5165;&#x7684;&#x5185;&#x5BB9;  
+
+                    scope.name = &quot;xxx&quot;;
+
+                    console.log(scope.title);
+                    console.log(attr);
+                    element.css(&quot;color&quot;, attr.ddlColor);
+                }
+            }
+        });
+        app.controller(&quot;ctrl&quot;, [&quot;$scope&quot;, &quot;$http&quot;, function ($scope, $http) {
+            $scope.title = &quot;&#x63A7;&#x5236;&#x5668;&quot;;
+        }]);
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span>
+</code></pre><p>shopCart.html:</p>
+<pre class="language-"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+</code></pre><p>&#x6307;&#x4EE4;&#x662F;NG&#x6700;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x4E2A;&#x7279;&#x6027;&#x4E4B;&#x4E00;&#xFF0C;&#x9700;&#x8981;&#x7262;&#x56FA;&#x638C;&#x63E1;&#xFF0C;&#x540E;&#x9762;&#x4F1A;&#x5927;&#x91CF;&#x7528;&#x5230;&#x3002;</p>
+<p>&#x5173;&#x4E8E;&#x6307;&#x4EE4;&#x4E4B;&#x95F4;&#x76F8;&#x4E92;&#x901A;&#x4FE1;&#x548C;&#x5176;&#x4ED6;&#x4E00;&#x4E9B;&#x5B9E;&#x6218;&#x5185;&#x5BB9;&#x5C06;&#x4F1A;&#x901A;&#x8FC7;&#x540E;&#x9762;&#x7684;&#x5B9E;&#x6218;&#x4F8B;&#x5B50;&#x6765;&#x5DE9;&#x56FA;&#xFF0C;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             </p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="10.html" class="navigation navigation-prev " aria-label="Previous page: 10.数据监听">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="12.html" class="navigation navigation-next " aria-label="Next page: 12.自定义指令隔离作用域">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"11.自定义指令","level":"1.5.11","depth":2,"next":{"title":"12.自定义指令隔离作用域","level":"1.5.12","depth":2,"path":"07/12.md","ref":"07/12.md","articles":[]},"previous":{"title":"10.数据监听","level":"1.5.10","depth":2,"path":"07/10.md","ref":"07/10.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex","emphasize","splitter","expandable-chapters-small","multipart","prism","-highlight","-sharing"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"emphasize":{},"splitter":{},"search":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"showLevel":true},"expandable-chapters-small":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的个人博客","language":"zh-hans","gitbook":"3.2.2"},"file":{"path":"07/11.md","mtime":"2017-08-04T07:09:21.076Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-09-29T07:16:40.781Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
