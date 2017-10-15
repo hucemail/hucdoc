@@ -1,0 +1,469 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>类成员 · 我的个人博客</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-okaidia.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="03.html" />
+    
+    
+    <link rel="prev" href="01.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    C#高级编程
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    对象和类型
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="01.html">
+            
+                <a href="01.html">
+            
+                    
+                    类和结构的区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.2" data-path="02.html">
+            
+                <a href="02.html">
+            
+                    
+                    类成员
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.1.3" data-path="03.html">
+            
+                <a href="03.html">
+            
+                    
+                    匿名类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >类成员</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#&#x6570;&#x636E;&#x6210;&#x5458;"><b>1. </b>&#x6570;&#x636E;&#x6210;&#x5458;</a></li><li><span class="title-icon "></span><a href="#&#x51FD;&#x6570;&#x6210;&#x5458;"><b>2. </b>&#x51FD;&#x6570;&#x6210;&#x5458;</a></li><ul><li><span class="title-icon "></span><a href="#&#x65B9;&#x6CD5;"><b>2.1. </b>&#x65B9;&#x6CD5;</a></li><li><span class="title-icon "></span><a href="#&#x5C5E;&#x6027;"><b>2.2. </b>&#x5C5E;&#x6027;</a></li><li><span class="title-icon "></span><a href="#&#x6784;&#x9020;&#x51FD;&#x6570;"><b>2.3. </b>&#x6784;&#x9020;&#x51FD;&#x6570;</a></li><li><span class="title-icon "></span><a href="#&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;"><b>2.4. </b>&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;</a></li></ul></ul></div><a href="#&#x6570;&#x636E;&#x6210;&#x5458;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><p>&#x7C7B;&#x6709;&#x6570;&#x636E;&#x6210;&#x5458;&#x548C;&#x51FD;&#x6570;&#x6210;&#x5458;&#x3001;&#x8FD8;&#x53EF;&#x4EE5;&#x6709;&#x5D4C;&#x5957;&#x7C7B;&#x3002;&#x6210;&#x5458;&#x7684;&#x53EF;&#x8BBF;&#x95EE;&#x6027;&#x6709;&#xFF1A;</p>
+<p>public&#x3001;private&#x3001;protected&#x3001;internal&#x3001;internal protected&#x7B49;&#x4E94;&#x79CD;</p>
+<h1 id="&#x6570;&#x636E;&#x6210;&#x5458;"><a name="&#x6570;&#x636E;&#x6210;&#x5458;" class="anchor-navigation-ex-anchor" href="#&#x6570;&#x636E;&#x6210;&#x5458;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x6570;&#x636E;&#x6210;&#x5458;</h1>
+<p>&#x6570;&#x636E;&#x6210;&#x5458;&#x5305;&#x542B;&#xFF1A;&#x5B57;&#x6BB5;&#x3001;&#x4E8B;&#x4EF6;&#x3001;&#x5E38;&#x91CF;&#x7B49;&#x7B49;&#x3002;&#x6570;&#x636E;&#x6210;&#x5458;&#x53EF;&#x4EE5;&#x662F;&#x9759;&#x6001;&#x6210;&#x5458;&#x548C;&#x5B9E;&#x4F8B;&#x6210;&#x5458;</p>
+<h1 id="&#x51FD;&#x6570;&#x6210;&#x5458;"><a name="&#x51FD;&#x6570;&#x6210;&#x5458;" class="anchor-navigation-ex-anchor" href="#&#x51FD;&#x6570;&#x6210;&#x5458;"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x51FD;&#x6570;&#x6210;&#x5458;</h1>
+<p>&#x51FD;&#x6570;&#x6210;&#x5458;&#x5305;&#x542B;&#xFF1A;&#x65B9;&#x6CD5;&#x3001;&#x5C5E;&#x6027;&#x3001;&#x6784;&#x9020;&#x51FD;&#x6570;&#x3001;&#x6790;&#x6784;&#x51FD;&#x6570;&#x3001;&#x8FD0;&#x7B97;&#x7B26;&#x3001;&#x7D22;&#x5F15;&#x5668;&#x3002;</p>
+<h2 id="&#x65B9;&#x6CD5;"><a name="&#x65B9;&#x6CD5;" class="anchor-navigation-ex-anchor" href="#&#x65B9;&#x6CD5;"><i class="fa fa-link" aria-hidden="true"></i></a>2.1. &#x65B9;&#x6CD5;</h2>
+<p><strong>1.&#x65B9;&#x6CD5;&#x7684;&#x58F0;&#x660E;</strong></p>
+<pre class="language-"><code>&#x8BBF;&#x95EE;&#x4FEE;&#x9970;&#x7B26; &#x8FD4;&#x56DE;&#x7C7B;&#x578B;  &#x65B9;&#x6CD5;&#x540D;(&#x65B9;&#x6CD5;&#x53C2;&#x6570;)
+{
+
+}
+</code></pre><p>&#x5982;&#xFF1A;</p>
+<pre class="language-"><code>public int GetSquareOf(int x)
+{
+    return x*x;
+}
+</code></pre><p><strong>2.&#x65B9;&#x6CD5;&#x7684;&#x8C03;&#x7528;</strong></p>
+<p>&#x8C03;&#x7528;&#x9759;&#x6001;&#x65B9;&#x6CD5;</p>
+<pre class="language-"><code>&#x7C7B;&#x540D;.&#x65B9;&#x6CD5;&#x540D;
+</code></pre><p>&#x8C03;&#x7528;&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;</p>
+<pre class="language-"><code>&#x5BF9;&#x8C61;&#x540D;.&#x65B9;&#x6CD5;&#x540D;
+</code></pre><p><strong>3.ref&#x53C2;&#x6570;</strong></p>
+<p>&#x5C06;&#x503C;&#x7C7B;&#x578B;&#x7684;&#x53C2;&#x6570;&#x901A;&#x8FC7;&#x5F15;&#x7528;&#x7684;&#x65B9;&#x5F0F;&#x4F20;&#x9012;&#xFF0C;&#x5F53;&#x5F62;&#x53C2;&#x7684;&#x503C;&#x88AB;&#x6539;&#x53D8;&#x5C06;&#x4F1A;&#x5F71;&#x54CD;&#x5B9E;&#x53C2;&#x7684;&#x503C;&#xFF0C;&#x5982;&#xFF1A;</p>
+<pre class="language-"><code>internal class RefTest
+{
+    public void Test(ref int x)
+    {
+        x *= x;
+    }
+}
+</code></pre><p>&#x8C03;&#x7528;&#x6D4B;&#x8BD5;&#xFF1A;</p>
+<pre class="language-"><code>    static void Main(string[] args)
+    {
+        RefTest t = new RefTest();
+        int i = 10;
+        t.Test(ref i);
+        Console.WriteLine(i);
+    }
+</code></pre><p><strong>4.out&#x53C2;&#x6570;</strong></p>
+<p>&#x540C;&#x6837;&#x662F;&#x5C06;&#x503C;&#x7C7B;&#x578B;&#x7684;&#x53C2;&#x6570;&#x901A;&#x8FC7;&#x5F15;&#x7528;&#x7684;&#x65B9;&#x5F0F;&#x4F20;&#x9012;&#xFF0C;&#x4F46;&#x4E8E;ref&#x4E0D;&#x540C;&#x7684;&#x662F;&#xFF0C;&#x65B9;&#x6CD5;&#x5E76;&#x4E0D;&#x5173;&#x5FC3;&#x5F62;&#x53C2;&#x7684;&#x521D;&#x59CB;&#x503C;&#xFF0C;&#x5728;&#x65B9;&#x6CD5;&#x7ED3;&#x675F;&#x4E4B;&#x524D;&#x5FC5;&#x987B;&#x7ED9;out&#x5F62;&#x53C2;&#x8D4B;&#x503C;&#x3002;&#x5982;&#xFF1A;</p>
+<pre class="language-"><code>internal class OutTest
+{
+    public void Test(out int x)
+    {
+        //(x *= x;)&#x8FD9;&#x662F;&#x9519;&#x8BEF;&#x7684;&#x5199;&#x6CD5;&#xFF0C;&#x4F7F;&#x7528;&#x4E86;&#x672A;&#x8D4B;&#x503C;&#x7684;&#x53D8;&#x91CF;x
+        x = 100;
+    }
+}
+</code></pre><p>&#x8C03;&#x7528;&#x6D4B;&#x8BD5;&#xFF1A;</p>
+<pre class="language-"><code>    static void Main(string[] args)
+    {
+        OutTest t = new OutTest();
+        int i = 10;
+        t.Test(ref i);
+        Console.WriteLine(i);
+    }
+</code></pre><p><strong>5.&#x53C2;&#x6570;&#x9ED8;&#x8BA4;&#x503C;</strong></p>
+<p>&#x6709;&#x9ED8;&#x8BA4;&#x503C;&#x7684;&#x53C2;&#x6570;&#x5FC5;&#x987B;&#x5728;&#x65E0;&#x9ED8;&#x8BA4;&#x503C;&#x5F97;&#x53C2;&#x6570;&#x540E;&#x9762;&#xFF0C;&#x5982;&#xFF1A;</p>
+<pre class="language-"><code>internal class DefaultTest
+{
+    public int Test(int x,int y=10)
+    {
+        return x * y;
+    }
+}
+</code></pre><p><strong>6.&#x65B9;&#x6CD5;&#x91CD;&#x8F7D;</strong></p>
+<p>&#x65B9;&#x6CD5;&#x7684;&#x91CD;&#x8F7D;&#x5FC5;&#x987B;&#x9075;&#x4ECE;&#xFF1A;&#x65B9;&#x6CD5;&#x540D;&#x76F8;&#x540C;&#x3001;&#x53C2;&#x6570;&#x7684;&#x7C7B;&#x578B;&#x6216;&#x4E2A;&#x6570;&#x4E0D;&#x540C;&#x3002;</p>
+<h2 id="&#x5C5E;&#x6027;"><a name="&#x5C5E;&#x6027;" class="anchor-navigation-ex-anchor" href="#&#x5C5E;&#x6027;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2. &#x5C5E;&#x6027;</h2>
+<p><strong>1.&#x53EA;&#x8BFB;&#x6216;&#x53EA;&#x5199;&#x5C5E;&#x6027;</strong></p>
+<p>&#x53EA;&#x8BFB;&#x5C5E;&#x6027;&#x53EA;&#x6709;get&#xFF0C;&#x53EA;&#x5199;&#x5C5E;&#x6027;&#x53EA;&#x6709;set&#xFF0C;&#x5982;&#xFF1A;</p>
+<pre class="language-"><code>    private int _age;
+    public int Age
+    {
+        get
+        {
+            return _age;
+        }
+    }
+</code></pre><p><strong>2.&#x5C5E;&#x6027;&#x7684;&#x8BBF;&#x95EE;&#x4FEE;&#x9970;&#x7B26;</strong></p>
+<p>get&#x548C;set&#x5FC5;&#x987B;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x8BBF;&#x95EE;&#x4FEE;&#x9970;&#x7B26;&#x548C;&#x5C5E;&#x6027;&#x4E00;&#x81F4;&#xFF0C;&#x4E0B;&#x9762;&#x4EE3;&#x7801;&#x4E2D;Age&#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x5728;&#x4EFB;&#x4F55;&#x7C7B;&#x4E2D;&#x8BBF;&#x95EE;&#xFF0C;&#x4F46;&#x53EA;&#x80FD;&#x5728;&#x5F53;&#x524D;&#x7C7B;&#x4E2D;&#x8BBE;&#x7F6E;&#x503C;&#xFF0C;&#x5982;&#xFF1A;</p>
+<pre class="language-"><code>    private int _age;
+    public int Age
+    {
+        get
+        {
+            return _age;
+        }
+        private set {
+            _age = value;
+        }
+    }
+</code></pre><p><strong>3.&#x81EA;&#x52A8;&#x5C5E;&#x6027;</strong></p>
+<p>&#x81EA;&#x52A8;&#x5C5E;&#x6027;&#x5FC5;&#x987B;&#x8981;&#x540C;&#x65F6;&#x62E5;&#x6709;get&#x548C;set&#x3002;&#x5B83;&#x6CA1;&#x6709;&#x4E3B;&#x4F53;&#xFF0C;&#x56E0;&#x6B64;&#x65E0;&#x6CD5;&#x9A8C;&#x8BC1;&#x503C;&#x5F97;&#x5408;&#x6CD5;&#x6027;&#x3002;</p>
+<pre class="language-"><code>    public int Age { get;private set; }
+</code></pre><h2 id="&#x6784;&#x9020;&#x51FD;&#x6570;"><a name="&#x6784;&#x9020;&#x51FD;&#x6570;" class="anchor-navigation-ex-anchor" href="#&#x6784;&#x9020;&#x51FD;&#x6570;"><i class="fa fa-link" aria-hidden="true"></i></a>2.3. &#x6784;&#x9020;&#x51FD;&#x6570;</h2>
+<p><strong>1.&#x6784;&#x9020;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x5176;&#x4ED6;&#x6784;&#x9020;&#x51FD;&#x6570;</strong></p>
+<p>&#x4E00;&#x4E2A;&#x6784;&#x9020;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x53E6;&#x4E00;&#x4E2A;&#x91CD;&#x8F7D;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6784;&#x9020;&#x51FD;&#x6570;&#x521D;&#x59CB;&#x5316;&#x5668;&#xFF0C;&#x5B83;&#x5728;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4F53;&#x4E4B;&#x524D;&#x6267;&#x884C;&#xFF0C;&#x56E0;&#x6B64;&#x4E0B;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x5148;&#x6267;&#x884C;&#x6709;&#x53C2;&#x6784;&#x9020;&#x51FD;&#x6570;&#x5728;&#x6267;&#x884C;&#x65E0;&#x53C2;&#x6784;&#x9020;&#x51FD;&#x6570;&#x3002;</p>
+<pre class="language-"><code>    private int _x;
+    public ConstructorTest(int x)
+    {
+        this._x = x;
+    }
+    public ConstructorTest():this(4)
+    {
+
+    }
+</code></pre><p><strong>2.&#x9759;&#x6001;&#x6784;&#x9020;&#x51FD;&#x6570;</strong></p>
+<p>&#x7F16;&#x5199;&#x9759;&#x6001;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x539F;&#x56E0;&#x662F;&#xFF0C;&#x7C7B;&#x6709;&#x4E9B;&#x5B57;&#x6BB5;&#x6216;&#x5C5E;&#x6027;&#x9700;&#x8981;&#x5728;&#x7B2C;&#x4E00;&#x6B21;&#x4F7F;&#x7528;&#x7C7B;&#x4E4B;&#x524D;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
+<ol>
+<li><p>&#x9759;&#x6001;&#x6784;&#x9020;&#x51FD;&#x6570;&#x552F;&#x4E00;&#x80FD;&#x786E;&#x5B9A;&#x7684;&#x662F;&#x6C38;&#x8FDC;&#x53EA;&#x6267;&#x884C;&#x4E00;&#x6B21;&#xFF0C;&#x4E14;&#x5728;&#x7B2C;&#x4E00;&#x6B21;&#x4F7F;&#x7528;&#x7C7B;&#x6210;&#x5458;&#x4E4B;&#x524D;&#x6267;&#x884C;&#xFF08;&#x5E76;&#x4E0D;&#x662F;&#x7A0B;&#x5E8F;&#x96C6;&#x52A0;&#x8F7D;&#x6267;&#x884C;&#xFF09;</p>
+</li>
+<li><p>CLR&#x6CA1;&#x6709;&#x786E;&#x4FDD;&#x4EC0;&#x4E48;&#x65F6;&#x523B;&#x6267;&#x884C;&#x9759;&#x6001;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x6240;&#x4EE5;&#x9759;&#x6001;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x4E0D;&#x5E94;&#x8BE5;&#x4F9D;&#x8D56;&#x4E8E;&#x5176;&#x4ED6;&#x9759;&#x6001;&#x6784;&#x9020;&#x51FD;&#x6570;&#x3002;</p>
+</li>
+<li>&#x9759;&#x6001;&#x6784;&#x9020;&#x51FD;&#x6570;&#x6CA1;&#x6709;&#x8BBF;&#x95EE;&#x4FEE;&#x9970;&#x7B26;&#xFF0C;C#&#x4EE3;&#x7801;&#x4ECE;&#x4E0D;&#x8C03;&#x7528;&#x5B83;&#xFF0C;&#x53EA;&#x662F;&#x5728;&#x52A0;&#x8F7D;&#x7C7B;&#x65F6;&#x7531;CLR&#x8C03;&#x7528;</li>
+<li><p>&#x4E00;&#x4E2A;&#x7C7B;&#x53EA;&#x80FD;&#x7531;&#x4E00;&#x4E2A;&#x9759;&#x6001;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x56E0;&#x6B64;&#x5B83;&#x6CA1;&#x6709;&#x91CD;&#x8F7D;&#xFF0C;&#x5373;&#x4E0D;&#x80FD;&#x5E26;&#x4EFB;&#x4F55;&#x53C2;&#x6570;&#x3002;</p>
+<pre class="language-"><code> static ConstructorTest()
+ {
+
+ }
+</code></pre></li>
+</ol>
+<h2 id="&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;"><a name="&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;" class="anchor-navigation-ex-anchor" href="#&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;"><i class="fa fa-link" aria-hidden="true"></i></a>2.4. &#x53EA;&#x8BFB;&#x5B57;&#x6BB5;</h2>
+<p>&#x5B83;&#x4E8E;&#x5E38;&#x91CF;&#x7684;&#x533A;&#x522B;&#x5728;&#x4E8E;&#xFF1A;</p>
+<ol>
+<li>readonly&#x53EF;&#x4EE5;&#x5728;&#x58F0;&#x660E;&#x6216;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E2D;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x56E0;&#x6B64;&#x5B83;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8868;&#x8FBE;&#x5F0F;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;</li>
+<li>readonly&#x53EF;&#x4EE5;&#x662F;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x5B57;&#x6BB5;&#x3002;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x6807;&#x8BB0;static&#x4E3A;&#x9759;&#x6001;&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;</li>
+<li>readonly&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8868;&#x8FBE;&#x5F0F;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x56E0;&#x6B64;&#x53EF;&#x4EE5;&#x6307;&#x5B9A;&#x65E5;&#x671F;&#x7C7B;&#x578B;&#x4E3A;&#x53EA;&#x8BFB;&#x5B57;&#x6BB5;</li>
+</ol>
+<p>&#x800C;&#xFF1A;</p>
+<ol>
+<li>const&#x53EA;&#x80FD;&#x5728;&#x58F0;&#x660E;&#x65F6;&#x8FDB;&#x884C;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x521D;&#x59CB;&#x5316;&#x503C;&#x5FC5;&#x987B;&#x662F;&#x5E38;&#x91CF;&#x8868;&#x8FBE;&#x5F0F;&#x3002;</li>
+<li>const&#x4E00;&#x5B9A;&#x662F;&#x4E00;&#x4E2A;&#x9759;&#x6001;&#x7C7B;&#x578B;&#xFF0C;&#x56E0;&#x6B64;&#x4E0D;&#x80FD;&#x663E;&#x793A;&#x6307;&#x5B9A;static</li>
+<li>const&#x56E0;&#x4E3A;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;&#x53D8;&#x91CF;&#x8868;&#x8FBE;&#x5F0F;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x6240;&#x4EE5;&#x65E5;&#x671F;&#x7C7B;&#x578B;&#x4E0D;&#x80FD;&#x8BBE;&#x7F6E;&#x4E3A;&#x5E38;&#x91CF;</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="01.html" class="navigation navigation-prev " aria-label="Previous page: 类和结构的区别">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="03.html" class="navigation navigation-next " aria-label="Next page: 匿名类型">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"类成员","level":"1.2.1.2","depth":3,"next":{"title":"匿名类型","level":"1.2.1.3","depth":3,"path":"01/01/03.md","ref":"01/01/03.md","articles":[]},"previous":{"title":"类和结构的区别","level":"1.2.1.1","depth":3,"path":"01/01/01.md","ref":"01/01/01.md","articles":[]},"dir":"ltr"},"config":{"plugins":["anchor-navigation-ex","emphasize","splitter","expandable-chapters-small","multipart","prism","-highlight","-sharing","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"emphasize":{},"livereload":{},"splitter":{},"search":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"mode":"float","pageTop":{"level1Icon":"fa fa-hand-o-right","level2Icon":"fa fa-hand-o-right","level3Icon":"fa fa-hand-o-right","showLevelIcon":false},"showLevel":true},"expandable-chapters-small":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"我的个人博客","language":"zh-hans","gitbook":"3.2.2"},"file":{"path":"01/01/02.md","mtime":"2017-10-15T09:48:59.538Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-10-15T09:59:28.101Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
