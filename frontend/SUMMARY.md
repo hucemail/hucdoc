@@ -117,4 +117,5 @@
     * [http-server小型http服务器](05/http-server.md)
     * [gitbook文档](05/gitbook.md)
     * [GitBookEditor编辑器](05/gitbookeditorbian-ji-qi.md)
-
+* [常用js插件库](12/README.md)
+	* [表单验证插件](12/01.md)
