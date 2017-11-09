@@ -62,7 +62,7 @@
 
     function notequals(str, comparison)
     {
-        return !equals(str, comparison)
+        return !equals(str, comparison);
     }
 
     function equalto(str, domid) {
@@ -74,8 +74,8 @@
         return false;
     }
 
-    function notequalsto(str, domid) {
-        return !equalsto(str, domid)
+    function notequalto(str, domid) {
+        return !equalto(str, domid);
     }
 
     var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
@@ -1459,7 +1459,7 @@
         equals: equals,
         notequals: notequals,
         equalto: equalto,
-        notequalto: equalto,
+        notequalto: notequalto,
         contains: contains,
         matches: matches,
         isEmail: isEmail,
