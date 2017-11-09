@@ -60,6 +60,11 @@
         return str === comparison;
     }
 
+    function notequals(str, comparison)
+    {
+        return !equals(str, comparison)
+    }
+
     function equalto(str, domid) {
         assertString(str);
         var c = document.getElementById(domid);
@@ -67,6 +72,10 @@
             return str === c.value;
         }
         return false;
+    }
+
+    function notequalsto(str, domid) {
+        return !equalsto(str, domid)
     }
 
     var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) {
@@ -845,16 +854,16 @@
         assertString(str);
         var city = { 11: "北京", 12: "天津", 13: "河北", 14: "山西", 15: "内蒙古", 21: "辽宁", 22: "吉林", 23: "黑龙江 ", 31: "上海", 32: "江苏", 33: "浙江", 34: "安徽", 35: "福建", 36: "江西", 37: "山东", 41: "河南", 42: "湖北 ", 43: "湖南", 44: "广东", 45: "广西", 46: "海南", 50: "重庆", 51: "四川", 52: "贵州", 53: "云南", 54: "西藏 ", 61: "陕西", 62: "甘肃", 63: "青海", 64: "宁夏", 65: "新疆", 71: "台湾", 81: "香港", 82: "澳门", 91: "国外 " };
         var pass = true;
-        if (!code || !/^[1-9][0-9]{5}(19[0-9]{2}|200[0-9]|2010)(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])[0-9]{3}[0-9xX]$/i.test(code)) {
+        if (!str || !/^[1-9][0-9]{5}(19[0-9]{2}|200[0-9]|2010)(0[1-9]|1[0-2])(0[1-9]|[12][0-9]|3[01])[0-9]{3}[0-9xX]$/i.test(str)) {
             pass = false;
         }
-        else if (!city[code.substr(0, 2)]) {
+        else if (!city[str.substr(0, 2)]) {
             pass = false;
         }
         else {
             //18位身份证需要验证最后一位校验位
-            if (code.length == 18) {
-                code = code.split('');
+            if (str.length == 18) {
+                str = str.split('');
                 //∑(ai×Wi)(mod 11)
                 //加权因子
                 var factor = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2];
@@ -864,12 +873,12 @@
                 var ai = 0;
                 var wi = 0;
                 for (var i = 0; i < 17; i++) {
-                    ai = code[i];
+                    ai = str[i];
                     wi = factor[i];
                     sum += ai * wi;
                 }
                 var last = parity[sum % 11];
-                if (parity[sum % 11] != code[17]) {
+                if (parity[sum % 11] != str[17]) {
                     pass = false;
                 }
             }
@@ -1448,7 +1457,9 @@
         toInt: toInt,
         toBoolean: toBoolean,
         equals: equals,
+        notequals: notequals,
         equalto: equalto,
+        notequalto: equalto,
         contains: contains,
         matches: matches,
         isEmail: isEmail,
@@ -1570,9 +1581,9 @@
         removeValidErrorTip(tag);
         var validerrortip = document.createElement("span");
         tag.parentNode.insertBefore(validerrortip, this.nextSibling);
-        validerrortip.className = "valid-error-tip animated zoomIn";
+        validerrortip.className = "valid-error-tip";
         validerrortip.innerText = errormsg;
-        validerrortip.style = "animation-duration: 0.3s;font-size: 14px;color: #f15533;line-height: 14px;position: absolute;left: " + (tag.offsetLeft + tag.clientWidth + 20) + "px;top: " + (tag.offsetTop + tag.clientHeight / 2 - 7) + "px;text-align: left;";
+        validerrortip.style = "font-size: 14px;color: #f15533;line-height: 14px;position: absolute;left: " + (tag.offsetLeft + tag.clientWidth + 20) + "px;top: " + (tag.offsetTop + tag.clientHeight / 2 - 7) + "px;text-align: left;";
         tag.style.borderColor = "#f15533";
     }
     //移除验证失败自动构建的错误提示
@@ -1595,7 +1606,7 @@
         if (elements.length <= 0)
             throw "there is no form element to verify,please call (manualStartUp or automaticStartUp) action initialization form validation listeners.";
         Array.prototype.forEach.call(elements, function (item, index, arr) {
-            if (options[index].validator) {
+            if (options[index]&&options[index].validator) {
                 var validatorOption = extend({}, defaultValidatorOption);
                 extend(validatorOption, options[index].validator);
                 if (options[index].validator.group && options[index].validator.group.length > 0) {
