@@ -1574,16 +1574,18 @@
         }
     }
     var defaultValidatorOption = {
-        autotip: false
+        autotip: false,
+        width: "300",
+        color: "#f15533"
     };
     //表单验证失败自动构建错误提示
-    function appendValidErrorTip(tag, errormsg) {
+    function appendValidErrorTip(tag, errormsg, option) {
         removeValidErrorTip(tag);
         var validerrortip = document.createElement("span");
         tag.parentNode.insertBefore(validerrortip, this.nextSibling);
         validerrortip.className = "valid-error-tip";
         validerrortip.innerText = errormsg;
-        validerrortip.style = "font-size: 14px;color: #f15533;line-height: 14px;position: absolute;left: " + (tag.offsetLeft + tag.clientWidth + 20) + "px;top: " + (tag.offsetTop + tag.clientHeight / 2 - 7) + "px;text-align: left;";
+        validerrortip.style = "font-size: 14px;color: " + option.color + ";line-height: 14px;width: " + option.width + "px;position: absolute;left: " + (tag.offsetLeft + tag.clientWidth + 20) + "px;top: " + (tag.offsetTop + tag.clientHeight / 2 - 7) + "px;text-align: left;";
         tag.style.borderColor = "#f15533";
     }
     //移除验证失败自动构建的错误提示
@@ -1651,7 +1653,7 @@
             if (!validator[item.type](value, item.extra_arg1, item.extra_arg2, item.extra_arg3)) {
                 //验证不通过
                 if (option.autotip) {
-                    appendValidErrorTip(tag, item.errormsg);
+                    appendValidErrorTip(tag, item.errormsg,option);
                 }
                 if (typeof item.onerror == "function") {
                     item.onerror(tag);
